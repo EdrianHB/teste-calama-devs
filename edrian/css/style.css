@@ -5,7 +5,7 @@
     --card: #e6dcef;
     --background: #f5eef8;
 }
-/* ___Body___ */
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -14,19 +14,16 @@ body{
     color: var(--primary);
 }
 
-/* ___Header___ */
 header{
     padding: 40px;
 }
 
-/* ___Main___ */
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* ___Section___ */
 section{
     background-color: var(--primary);
     color: white;
@@ -36,7 +33,6 @@ section{
     max-width: 600px;
 }
 
-/* ___Button___ */
 button{
     margin-top: 30px;
     padding: 10px 20px;
@@ -49,4 +45,10 @@ button{
 }
 button:hover{
     background-color: var(--secondary);
+}
+footer{
+    margin-top: 140px;
+    padding: 20px;
+    font-size: 14px;
+    color: var(--secondary);
 }

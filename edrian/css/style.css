@@ -1,0 +1,27 @@
+/* ___Body___ */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/* ___Header___ */
+header{
+    padding: 40px;
+}
+
+/* ___Main___ */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ___Section___ */
+
+/* ___Button___ */
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 0px;
+}

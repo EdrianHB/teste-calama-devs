@@ -28,8 +28,14 @@ main{
 /* ___Mission Section___ */
 
 .mission-title{
+    display: flex;
     text-align: center;
     margin-top: 40px;
+    justify-content: center;
+    gap: 7px;
+}
+h2{
+    margin: 0px;
 }
 
 .mission-container{
@@ -48,6 +54,12 @@ main{
     max-width: 250px;
     text-align: left;
     line-height: 1.5;
+}
+ /*___Icons___*/
+.mission-card img{
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 40px;
 }
 
 /*___button___*/

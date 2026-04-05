@@ -27,12 +27,12 @@ main{
 
 /* ___Mission Section___ */
 
-.mission-title {
+.mission-title{
     text-align: center;
     margin-top: 40px;
 }
 
-.mission-container {
+.mission-container{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -50,6 +50,7 @@ main{
     line-height: 1.5;
 }
 
+/*___button___*/
 button{
     margin-top: 30px;
     padding: 10px 20px;
@@ -69,10 +70,3 @@ footer{
     font-size: 14px;
     color: var(--secondary);
 }
-/*
-    background-color: var(--primary);
-    color: white;
-    padding: 20px;
-    border-radius: 12px;
-    margin-top: 20px;
-    max-width: 600px;

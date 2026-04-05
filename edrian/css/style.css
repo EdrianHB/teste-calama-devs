@@ -1,3 +1,4 @@
+/*___Primary Colors___*/
 :root {
     --primary: #55819e;
     --secondary: #8199b5;
@@ -24,13 +25,29 @@ main{
     align-items: center;
 }
 
-section{
-    background-color: var(--primary);
-    color: white;
+/* ___Mission Section___ */
+
+.mission-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mission-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.mission-card {
+    background-color: var(--card);
+    color: var(--primary);
     padding: 20px;
     border-radius: 12px;
-    margin-top: 20px;
-    max-width: 600px;
+    max-width: 250px;
+    text-align: left;
+    line-height: 1.5;
 }
 
 button{
@@ -52,3 +69,10 @@ footer{
     font-size: 14px;
     color: var(--secondary);
 }
+/*
+    background-color: var(--primary);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    max-width: 600px;
